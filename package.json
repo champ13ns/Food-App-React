@@ -4,9 +4,9 @@
   "description": "React Food-App",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "parcel index.html"
+    "start": "parcel index.html"
   },
-  "type":"module",
+  "type": "module",
   "author": "Sachin Fuloria",
   "license": "ISC",
   "devDependencies": {
@@ -15,7 +15,8 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.16.0"
   },
   "browserslist": [
     "last 10 versions"

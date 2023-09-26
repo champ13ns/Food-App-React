@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react'
 import data from './../constants/index.js'
-import RCard from './ResturantCard.js'
+import RCard from './RestrauntCard.js'
 import Shimmer from './Shimmer.js'
 import { useState  } from 'react'
+
  const Body = () =>{
     const res = data?.data?.cards[2].card.card.gridElements.infoWithStyle.restaurants;
     const [allresturants,setAllResturants] = useState(res);
@@ -24,8 +25,15 @@ import { useState  } from 'react'
                     })
                     console.log("filtered restraunts var are: ",filterRes)
                     setFilteredRestraunts(filterRes);
-                    console.log("filtered restraunts are: ",filteredRestraunts)
+                    console.log("filtered restraunts are: ",filteredRestraunts) 
                 }} > Search </button>
+                <div className='res-container'>
+                    {
+                        filteredRestraunts.map((rest) => (
+                            <RCard resData = {rest} />
+                        ))
+                    }
+                </div>
             </div>
         </div>
     </div>
