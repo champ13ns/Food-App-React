@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "React Food-App",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "parcel index.html"
   },
   "type":"module",
   "author": "Sachin Fuloria",
@@ -17,6 +18,6 @@
     "react-dom": "^18.2.0"
   },
   "browserslist": [
-    "last 2 versions"
+    "last 10 versions"
   ]
 }

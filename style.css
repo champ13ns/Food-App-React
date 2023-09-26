@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black
+}
+.logo{
+    width: 200px;
+}
+.nav-items{
+    padding: 0px 20px;
+}
+.nav-items > ul{
+    font-size: 24px;
+    display: flex;
+    list-style: none;
+
+}
+.nav-items > ul > li{
+    padding:10px;
+    margin:10px;
+    list-style: none;
+}
+
+.auth-btn{
+    cursor: pointer;
+    border : 1px solid black;
+}
+
+.resturant-main-container{
+    display: flex;
+    justify-content: space-between;
+}
+.shimmer-container{
+    display: flex;
+    /* justify-content : space-evenly; */
+    flex-wrap: wrap;
+
+}
+.shimmer-card{
+    width: 200px;
+    height: 400px;
+    background-color:#f0f0f0;
+    margin:20px;
+}
